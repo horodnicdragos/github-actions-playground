@@ -1,6 +1,7 @@
 name: TSLINT
 on: 
   pull_request:
+    types: [assigned, opened, synchronize, reopened]
     branches:
       - develop
 jobs:
